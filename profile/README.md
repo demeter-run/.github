@@ -6,8 +6,7 @@ Demeter.run is open-source hosting platform with focus on developer experience a
 
 ## 🌐 Main Components
 
-- [operator](https://github.com/demeter-run/operator) - The operator in charge of managing k8s resources
-- [rpc](https://github.com/demeter-run/rpc) - The RPC server serving as gateway for external clients
+- [daemon](https://github.com/demeter-run/daemon) - The control plane that runs on each k8s cluster
 - [cli](https://github.com/demeter-run/cli) - The CLI for interacting with the system
 - [webui](https://github.com/demeter-run/webui) - The web-based UI for interacting with the system
 
@@ -15,7 +14,7 @@ Demeter.run is open-source hosting platform with focus on developer experience a
 
 This are extension packages that are included as part of the default provisioning scripts.
 
-- [ext-workloads](https://github.com/demeter-run/workloads) - Allows you to host custom workloads
+- [ext-workers](https://github.com/demeter-run/workers) - Allows you to host custom workloads using OCI images
 - [ext-kvstore](https://github.com/demeter-run/kvstore) - Provides access to a persistent key-value store
 - [ext-pubsub](https://github.com/demeter-run/pubsub) - Provides access to pub-sub topics
 - [ext-config](https://github.com/demeter-run/webui) - Provides access to shared configuration values
@@ -27,7 +26,7 @@ We love to receive contributions from the community and are eager to collaborate
 
 ## 📝 Contact Us
 
-If you have any questions or just want to say hi, don't hesitate to send us an email at [hello@demeter.run](mailto:hello@demeter.run). You can also find us on [Twitter](https://twitter.com/DemeterRun).
+If you have any questions or just want to say hi, don't hesitate to send us an email at [hello@demeter.run](mailto:hello@txpipe.io). You can also find us on [Twitter](https://twitter.com/DemeterRun).
 
 ## 📜 Code of Conduct
 
